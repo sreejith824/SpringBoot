@@ -18,7 +18,7 @@ public class StudentController {
 	@PostConstruct
 	@RequestMapping("/student/")
     public String index() {
-		return "Greetings from " +studentConfigBean.getName() + " !<pre>" + studentConfigBean.getEmail();
+		return "Greetings from " +studentConfigBean.getName() + " ! My first Spting boot app !!!<pre>" + studentConfigBean.getEmail();
     }
 
 }
